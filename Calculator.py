@@ -26,6 +26,7 @@ class calc:
   """Constructor method"""
   master.title('Calulator') 
   master.geometry('150x160')
+  master.resizable(0,0) #this removed maximize window button
   self.e = Entry(master,width=22)
   self.e.place(x=5,y=10)
   self.e.focus_set() #Sets focus on the input text area
